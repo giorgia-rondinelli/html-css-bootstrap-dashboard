@@ -2,12 +2,17 @@
   background-color: rgb(229,229,229);
 }
 
+
+
 header{
   border: 1 px solid black;
   height: 70px;
   background-color: white;
 }
-
+.logo-container{
+  height:70px;
+  width: 60px;
+}
 header input{
   border: none;
   width: 100%;
@@ -20,13 +25,6 @@ header i{
   color:rgb(255,143,0) ;
 }
 
-
-.logo-container{
-  height:70px;
-  width: 60px;
-
-
-}
 
 
 
@@ -50,6 +48,8 @@ main{
 .menu{
   border: 1px solid black;
   width: 70px;
+  background-image: url(/img/sidebar-bg.png );
+  background-color: rgb(5,30,52);
 }
 .container-sc{
   
