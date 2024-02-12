@@ -1,0 +1,38 @@
+header{
+  border: 1 px solid black;
+  height: 70px;
+  background-color: aqua;
+  
+}
+main{
+  height: 85vh;
+}
+
+.container{
+  border: 1px solid black;
+}
+.row{
+  border: 1px solid black;
+}
+.col{
+  border: 1px solid black;
+}
+
+.menu{
+  border: 1px solid black;
+  width: 70px;
+}
+.container-sc{
+  background-color: rgb(183, 145, 218);
+}
+
+@media screen and (min-width:768px){
+
+}
+
+@media screen and (min-width:992px){
+  .menu{
+    width:150px
+  }
+}
+
