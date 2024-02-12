@@ -1,9 +1,38 @@
+.bg-lightgrey{
+  background-color: rgb(229,229,229);
+}
+
 header{
   border: 1 px solid black;
   height: 70px;
-  background-color: aqua;
-  
+  background-color: white;
 }
+
+header input{
+  border: none;
+  width: 100%;
+}
+
+header i{
+  margin: 5px 10px;
+}
+.bell{
+  color:rgb(255,143,0) ;
+}
+
+
+.logo-container{
+  height:70px;
+  width: 60px;
+
+
+}
+
+
+
+
+
+
 main{
   height: 85vh;
 }
@@ -23,8 +52,15 @@ main{
   width: 70px;
 }
 .container-sc{
-  background-color: rgb(183, 145, 218);
+  
+  border: 1px solid black;
 }
+
+
+
+
+
+
 
 @media screen and (min-width:768px){
 
@@ -33,6 +69,9 @@ main{
 @media screen and (min-width:992px){
   .menu{
     width:150px
+  }
+  .logo-container{
+    width: 120px;
   }
 }
 

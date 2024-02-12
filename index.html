@@ -13,9 +13,34 @@
   <header>
     <div class="container-sc  h-100 vw-100   ">
       <div class="row h-100  align-items-center  ">
-        <div class="col-2 ">logo</div>
-        <div class="col-8"> search bar</div>
-        <div class="col-2">icone</div>
+        
+        
+        <div class="col-2 d-flex  ">
+          <div class="logo-container d-flex justify-content-start ">
+            <img class="w-100 h-100 object-fit-cover   d-lg-none  " src="img/mobile-logo.png" alt="">
+            <img  class="w-100 h-100 object-fit-contain d-none d-lg-block  " src="img/logo.svg" alt="">
+          </div>
+        </div>
+
+
+        <div class="col-8 "> 
+          <div class=" bg-lightgrey d-flex p-1 rounded-1  align-items-center">
+            <div><i class="p-2  fa-solid fa-magnifying-glass"></i></div>
+            <div class="w-100  "><input  class="bg-lightgrey" type="text" placeholder="Prova a cercare:Lezioni di Laravel"></div>
+          </div>
+        </div>
+
+
+
+        <div class="col-2">
+          <div class="d-flex justify-content-end  me-3">
+            <div class="d-none d-lg-block "><i class=" fa-solid fa-list-ul"></i></div>
+            <div class="d-none d-lg-block "><i class="fa-solid fa-circle-question"></i></div>
+            <div class="d-none d-lg-block "><i class="fa-solid fa-ellipsis-vertical"></i></div>
+            <div class=""><i class="bell fa-solid fa-bell"></i></div>
+          </div>
+
+        </div>
       </div>
     </div>
   </header>
