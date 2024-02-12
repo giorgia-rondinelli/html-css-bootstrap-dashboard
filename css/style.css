@@ -1,9 +1,16 @@
 .bg-lightgrey{
   background-color: rgb(229,229,229);
 }
+.bg-indaco{
+  background-color: rgb(22,91,186);
+}
+.fs-9{
+  font-size: .9em;
+}
 
-
-
+body{
+  font-family: 'Roboto', sans-serif;
+}
 header{
   border: 1 px solid black;
   height: 70px;
@@ -35,7 +42,7 @@ main{
   height: 85vh;
 }
 
-.container{
+/* .container{
   border: 1px solid black;
 }
 .row{
@@ -43,7 +50,7 @@ main{
 }
 .col{
   border: 1px solid black;
-}
+} */
 
 .menu{
   border: 1px solid black;

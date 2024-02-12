@@ -7,6 +7,9 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body class=" ">
@@ -80,7 +83,130 @@
 
     <section class="main-content w-100 h-100 overflow-auto">
       <div class="container-sc  w-100 h-100  ">
-        
+        <div class="container-sc">
+          <div class="row d-flex  bg-primary  ">
+            <div class="col-12 col-md-6 order-2 order-md-1" >
+              <div class="my-3 ms-2 text-white ">
+                <div >
+                  <div class="fs-3 d-inline ">Boolean</div>
+                  <span class="   badge rounded-pill bg-indaco fw-normal ">Piano blaze</span>
+                </div>
+                <div >
+                  <span class="   badge rounded-pill bg-indaco fw-normal ">3 app</span>
+                  <span class="fs-6   "><i class=" fa-solid fa-angles-right"></i></span>
+                  <span class="   badge rounded-pill bg-indaco fw-normal d-none d-lg-inline-block ">Boolean mobile app</span>
+                  <span class="   badge rounded-pill bg-indaco fw-normal d-none d-lg-inline-block  ">Boolean web app</span>
+                  <span class="   badge rounded-pill bg-indaco fw-normal d-none d-lg-inline-block  ">Boolean blog app</span>
+                  <span class="   badge rounded-pill bg-indaco fw-normal p-2 d-inline-block d-lg-none    "><i class="fa-solid fa-plus"></i></span>
+                </div>
+
+              </div>
+            </div>
+
+
+            <div class="col-12 col-md-3 order-3 order-md-2">
+              <div class="my-3 ms-2 text-white  ">
+                <div class=" fs-9 ">Studenti online negli ultimi 30 minuti</div>
+                <div class=" fs-3 ">125</div>
+              </div>
+            </div>
+
+
+            <div class="col-12 col-md-3 order-1 order-md-3">
+              <div class="my-3 ms-2 d-flex  " >
+                <div class="text-white">Nuovo Studente </div>
+                <div><!-- Button trigger modal -->
+                  <button type="button" class="btn btn-primary border-white ms-2 " data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <i class="fa-solid fa-plus"></i>
+                  </button>
+                  
+                  <!-- Modal -->
+                  <div class="modal fade position-absolute " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog   ">
+                      <div class="modal-content  ">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5 text-black " id="exampleModalLabel">inserisci un nuovo studente</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <form>
+                            <div class="mb-3">
+                              <div class="row">
+                                <div class="col"><label for="">Nome</label></div>
+                                <div class="col"><label for="">Cognome</label></div>
+                                
+                              </div>
+                              <div class="row">
+                                <div class="col"><input class= "form-control" type="text"></div>
+                                <div class="col"><input  class= "form-control"type="text"></div>
+                              </div>
+
+                              <div class="row">
+                                <div class="col"><label for="">Email</label></div>
+                                <div class="col"><label for="">Password</label></div>
+                              </div>
+                              <div class="row">
+                                <div class="col input-group flex-nowrap"><span class="input-group-text" id="addon-wrapping">@</span><input type="text" class="form-control"></div>
+                                <div class="col"><input class= "form-control" type="text"></div>
+                              </div>
+
+                              <div class="row">
+                                <div class="col"><label for=""> indirizzo Email</label></div>
+                                <div class="col"><label for="">Password</label></div>
+                              </div>
+                              <div class="row">
+                                <div class="col input-group flex-nowrap"><span class="input-group-text" id="addon-wrapping">@</span><input type="text" class="form-control"></div>
+                                <div class="col"><input class= "form-control" type="text"></div>
+                              </div>
+
+                              <div class="row">
+                                <div class="col"><label for=""> indirizzo </label></div>
+                              </div>
+                              <div class="row">
+
+                                <div class="col"><input class= "form-control" type="text"></div>
+                              </div>
+
+                              <div class="row">
+                                <div class="col-6"><label for=""> Città</label></div>
+                                <div class="col-4"><label for="">Stato</label></div>
+                                <div class="col-2"><label for="">Cap</label></div>
+
+                              </div>
+
+                              <div class="row">
+                                <div class="col-6"><input class= "form-control" type="text"></div>
+                                <div class="col-4"><select name="Scegli un opzione" id=""><option selected class="form-control ">Scegli...</option></select></div>
+                                <div class="col-2"><input  class= "form-control"type="text"></div>
+                              </div>
+
+                              <div class="row">
+                                <div class="col-6"><label for=""> Foto</label></div>
+                            
+                              </div>
+
+                              <div class="mb-3">
+                                <input class="form-control" type="file" id="formFile">
+                              </div>
+                             
+
+
+                            <div class="mb-3 form-check">
+                              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                              <label class="form-check-label" for="exampleCheck1">Seleziona per proseguire</label>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Salva</button>
+                            <button type="reset" class="btn btn-warning ">Svuota</button>
+                          </form>
+                        </div>
+                  
+                      </div>
+                    </div>
+                  </div></div>
+              </div>
+            </div>
+          </div>
+        </div>
 
       </div>
 
