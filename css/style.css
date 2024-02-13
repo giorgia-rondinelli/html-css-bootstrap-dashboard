@@ -53,6 +53,9 @@ main{
   background-image: url(/img/sidebar-bg.png );
   background-color: rgb(5,30,52);
 }
+.menu-options:hover{
+  background-color:rgb(87, 93, 98) ;
+}
 
 
 @media screen and (min-width:768px){
